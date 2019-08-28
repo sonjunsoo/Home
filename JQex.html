@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn2").click(function(){
+      var im = "";
+      for(var i=1;i<131;i++){
+        im += "<img src=images/아싸들/"+i+".jpg width ='200' height = '300'>"
+      }
+          $("#test2").html(im);
+  });
+});
+    
+</script>
+</head>
+<body>
+
+<p id="test2">추억 여행</p>
+
+<button id="btn2">추억 여행 시작</button>
+</body>
+</html>

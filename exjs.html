@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+    <script>
+        function myfun1(){
+        var x = myFunction(5, 3);
+            document.getElementById("demo1").innerHTML = x;
+          }
+        
+        function myfun2(){
+        var x = "나오는구나"
+        
+            document.getElementById("demo2").innerHTML = x;
+        alert(x);
+        }
+
+
+function myFunction(a, b) {
+  return a * b;
+}
+    </script>
+    
+</head> 
+<body>
+    
+    
+<h2> JS 연습</h2>
+
+<button type="button" onclick="myfun1()"> 눌러봐</button>
+<br><br>
+<button type="button" onclick="myfun2()"> 누르지마</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+    
+  
+</body>
+</html> 
